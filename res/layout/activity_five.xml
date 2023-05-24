@@ -1,0 +1,161 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+<LinearLayout
+  
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    
+
+     
+  
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+        android:id="@+id/button1"
+       android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/head4"
+        android:onClick="playsound"
+        
+        android:text="Sweat" /> 
+         
+         <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="വെശര്‍പ്പ് (vesharppu')" />
+
+    <TextView
+        android:id="@+id/textView2"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="വിയര്‍പ്പ്" />
+    </LinearLayout>
+   
+
+    
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+<Button
+        android:id="@+id/button2"
+       android:onClick="playsound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Swallow"
+        android:background="@drawable/head4" /> 
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="മുണുങ്ങുക" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="വിഴുങ്ങുക" />
+</LinearLayout>
+    
+   
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+<Button
+        android:id="@+id/button3"
+        android:onClick="playsound"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hard"
+        android:background="@drawable/head4" />
+    <TextView
+        android:id="@+id/textView5"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ക്ണാപ്പ്" />
+
+    <TextView
+        android:id="@+id/textView6"
+       android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="ബുദ്ധിമുട്ട്" />
+</LinearLayout>
+    
+
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="playsound"
+        android:text="Papaya"
+        android:background="@drawable/head4" /> 
+        <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="കറൂത്ത" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="പപ്പായ" />
+</LinearLayout>
+    
+
+
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+   <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Phone"
+        android:onClick="playsound"
+        android:background="@drawable/head4" />
+<TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="കൈഫോണ്" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="മൊബൈല്‍ഫോണ്‍" />
+    
+</LinearLayout>
+
+</LinearLayout>    </ScrollView>
